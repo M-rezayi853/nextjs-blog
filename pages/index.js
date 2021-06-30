@@ -9,7 +9,7 @@ function HomePage({ posts }) {
   return (
     <>
       <Head>
-        <title>Welcome to Mahdi's blog!</title>
+        <title>Welcome to Mahdi&apos;s blog!</title>
         <meta 
           name='description' 
           content='I post about programming and web development.' 
