@@ -10,15 +10,13 @@
 }
 
 .contact h1 {
-  font-size: var(--size-8);
+  font-size: var(--size-5);
   margin: var(--size-4) 0;
   text-align: left;
 }
 
 .form label {
   display: block;
-  font-family: 'Oswald', sans-serif;
-  font-weight: bold;
   margin: var(--size-2) 0 var(--size-1) 0;
 }
 
@@ -66,8 +64,11 @@
 }
 
 @media (min-width: 768px) {
+  .contact {
+    margin-top: var(--size-20);
+  }
   .contact h1 {
-    font-size: var(--size-16);
+    font-size: var(--size-8);
     text-align: center;
   }
 }
